@@ -1,0 +1,67 @@
+/*******************************
+GLOBAL STYLES
+*******************************/
+
+* {
+    box-sizing: border-box;
+}
+
+.clearfix:after {
+    content: " ";
+    display: table;
+    clear: both;
+}
+
+
+/*******************************
+VIDEO PLAYERS STYLES
+*******************************/
+
+.video-container {
+    margin: 0 auto;
+    width: 100%;
+    display: block;
+    max-width: 724px;
+    height: auto;
+}
+
+video {
+    width: 100%;
+    height: 100%;
+}
+
+.mejs__player .mejs__controls {
+    background: linear-gradient(transparent, rgb(0, 0, 128));
+}
+
+
+/*******************************
+TRANSCRIPT STYLES
+*******************************/
+
+.transcript {
+    max-width: 724px;
+    margin: 0 auto;
+    line-height: 1.8em;
+    margin-top: 2em;
+    padding: 0 1.5em;
+}
+
+.transcript span {
+    cursor: pointer;
+}
+
+.highlight {
+    color: orange;
+}
+
+
+/*******************************
+MEDIA QUERIES
+*******************************/
+
+@media (min-width: 768px) {
+    .transcript {
+        padding: 0;
+    }
+}
